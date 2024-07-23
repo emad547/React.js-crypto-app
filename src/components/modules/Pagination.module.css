@@ -1,0 +1,29 @@
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.paginationBox button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.paginationBox *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.paginationBox button:first-child,
+.paginationBox button:last-child {
+  width: 85px;
+  padding: 6px 0;
+  color: #fff;
+}
+
+.paginationBox button:not(:first-child, :last-child) {
+  width: 31px;
+  height: 31px;
+  color:  #fff;
+  border: 1px solid #1a438d;
+}

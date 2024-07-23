@@ -1,0 +1,47 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer > svg {
+  margin-bottom: 3rem;
+}
+
+.coinsTable {
+  width: 100%;
+  /* margin: 4rem 0; */
+  margin-bottom: 4rem;
+  border-collapse: collapse;
+}
+
+.coinsTable thead tr {
+  border-bottom: 1px solid #fff;
+}
+
+.coinsTable tbody tr {
+  border-bottom: 1px solid rgba(72, 72, 72, .6);
+}
+
+.coinsTable th {
+  width: calc(100% / 6);
+  text-align: left;
+  font-size: 1.15rem;
+  padding-bottom: 8px;
+}
+
+.coinsTable tr td:first-child {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.coinsTable tr td {
+  font-weight: 500;
+}
+
+.coinsTable .coinImage {
+  width: 30px;
+  margin-right: 10px;
+}

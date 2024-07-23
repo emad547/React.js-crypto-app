@@ -1,0 +1,19 @@
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #1a438d;
+  border-radius: 10px;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 8px 20px;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  justify-content: center;
+  padding: 15px 20px;
+  margin-top: 4rem;
+}
